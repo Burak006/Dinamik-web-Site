@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.hizalama_bitir{clear:both;}
+
+a{text-decoration:none;
+	color: #000;}
+
+.ana_govde{
+/*	border: 1px solid #000;*/
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+/*banner başlangıç*/
+.banner_ana{
+/*	border: 1px solid #000;*/
+	border-bottom: 1px solid #d8d8d8;
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	margin-bottom: 7px;
+}
+.logo{
+/*	border: 1px solid #000;*/
+	width: 100px;
+	height: 100px;
+	float: left;
+	cursor: pointer;
+}
+.logo_yazi{
+/*	border: 1px solid #000;*/
+	font-family: 'MyriadPro-Bold'!important;
+	width: auto;
+	height: auto;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 25px;
+	color: #e51922;
+	text-align: left;
+	cursor: pointer;
+	float: left;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+
+.menuler{
+/*	border: 1px solid #000;*/
+	width: auto;
+	height: auto;
+	margin: auto;
+	background-color: #ccc;
+	margin-left: 10px;
+}
+.m_basliklar{
+/*	border: 1px solid #000;*/
+	width: auto;
+	height: auto;
+	float: left;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 14px;
+	color:#656565;
+	padding: 6px 6px;
+	cursor: pointer;
+	margin-top: 45px;
+}
+.m_basliklar:hover{
+	color:#FFFFFF;
+	background-color:#CD2122;
+	transform: scale(1.1)translate3d(0,0,0);
+}
+.cikis{
+	border-radius: 50px;
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-right: 10px;
+	padding: 5px;
+	text-align: center;	
+	margin-top: 5px;
+	background-color: transparent;
+	box-shadow: 0px 5px 10px -7px rgb(0 0 0 / 75%);
+}
+.cikis:hover{
+    background-color: #CD2122;
+	transform: scale(1.1) translate3d(0,0,0);
+}
+.bayrak{
+/*	border: 1px solid #000;*/
+	width: 130px;
+	height: 80px;
+	float: right;
+	margin-top: 10px;
+}
+/*banner bitiş*/
+
+.body{
+/*	border: 1px solid #000;*/
+	width: 1200px;
+	height: auto;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

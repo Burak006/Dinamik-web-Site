@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hizalama_bitir{clear:both;}
+
+a{text-decoration:none;
+	color: #000;
+}
+.s_ekle_govde{
+	border: 1px solid #000;
+	width: 800px;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	background-color: #ccc;
+}
+.s_bilgileri{
+	border: 1px solid #000;
+	width: auto;
+	height: 20px;
+	text-align: center;
+	margin-bottom: 5px;
+	color: darkred;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 14px;
+	padding: 6px 6px;
+	
+}
+.s_basligi{
+	border: 1px solid #000;
+	width: auto;
+	height: 20px;
+	float: left;
+	margin-bottom: 5px;
+	color: darkred;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 14px;
+	padding: 6px 6px;
+	
+}
+.s_icerigi{
+	border: 1px solid #000;
+	width: auto;
+	height: 20px;
+	float: left;
+	margin-bottom: 5px;
+	color: darkred;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 14px;
+	padding: 6px 6px;
+	
+}
+.metin{
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 250px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+.buton{
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 80px;
+	height: 25px;
+	float: left;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.buton:hover{
+	color:#FF7600;
+	background-color: #fff;
+}
+
+
+

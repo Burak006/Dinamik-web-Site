@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #535353;
+    background-color: #fbfbfb;
+	margin:0px;
+	width: 100%px;
+}
+.hizalama_bitir{clear:both;}
+
+a{text-decoration:none;
+	color: #535353;}
+
+.haberler_genel_div{
+/*	border: 1px solid #000;*/
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+.sayfa_baslik{
+/*	border:1px solid #000;*/
+	margin: 0 0 10px;
+    padding-top: 10px;;
+    list-style: none;
+    float: left;
+	font-weight: 400;
+	font-size: 1rem;
+    line-height: 1.7;
+    color: #212529;
+    text-align: left;
+	cursor: pointer;
+}
+/*sol menü başlangıç*/
+.sol_menu{
+/*	border: 1px solid #000;*/
+	width: 230px;
+	height: auto;
+	float: left;
+	text-align: left;
+	font-weight: 400;
+	font-size: 1rem;
+    line-height: 1.7;
+    color: #535353;
+	background: #fff;
+    padding: 20px 25px;
+    border-radius: 3px;
+	box-shadow: 0 0px 7px 0px rgb(0 0 0 / 15%);
+}
+.menu_baslik{
+/*	border: 1px solid #000;*/
+	height: 15px;
+	color: #050505;
+    line-height: 1.4;
+    margin: 10px 0px 15px;
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+	bottom: 2px;
+    width: 100%;
+	border-bottom: 1px solid #ececec;
+}
+.alt_cizgi{
+    left: 0;
+    bottom: 2px;
+    width: 50px;
+    height: 0;
+    border-bottom: 1px solid #cd2122;
+	margin-bottom: 5px;
+}
+.alt_cizgi_uzun{
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid #ececec;
+}
+.kucuk_resim{
+/*	border: 1px solid #000;*/
+	width: 95px;
+	height: 70px;
+	float: left;
+	margin: auto;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	cursor: pointer;
+    border-radius: 3px;
+	margin-bottom: 3px;
+	margin-right: 3px;
+    box-shadow: inset 0 0 0 3px hsl(0deg 0% 100% / 15%);
+    transition: box-shadow .2s ease-out,background-color .2s ease-out;
+}
+.kucuk_resim:hover{
+	position: relative;
+    display: inline-block;
+	opacity: 0.7;
+	box-shadow: inset 0 0 0 3px #cd2122;
+}
+.buyuk_resim{
+/*	border: 1px solid #000;*/
+	width: 200px;
+	height: 96px;
+	float: left;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	cursor: pointer;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 3px hsl(0deg 0% 100% / 15%);
+    transition: box-shadow .2s ease-out,background-color .2s ease-out;
+}
+.buyuk_resim:hover{
+	opacity: 0.7;
+	box-shadow: inset 0 0 0 3px #cd2122;
+}
+.alti_cizili_yazi{
+    color: #535353;
+	cursor: pointer;
+	font-size: 1rem;
+    line-height: 1.7;
+    color: black;
+	text-align: left;
+	margin-bottom: 5px;
+	text-decoration: underline;
+}
+.alti_cizili_yazi:hover{
+	color:red;
+}
+.haber_arsiv{
+	cursor: pointer;
+	font-size: 1rem;
+    line-height: 1.7;
+    color: black;
+	text-align: left;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+.haber_arsiv:hover{
+	color:red;
+}
+/*sol menü bitiş*/
+
+
+
+/*sağ icerik başlangıç*/
+.sag_icerik{
+/*	border: 1px solid #000;*/
+	width: 880px;
+	height: auto;
+	margin: auto;
+	float: right;
+	text-align: left;
+	font-weight: 400;
+	font-size: 1rem;
+    line-height: 1.7;
+    color: #535353;
+	background: #fff;
+}
+.icerik_baslik{
+/*	border: 1px solid #000;*/
+	font-size: 28px;
+    margin-bottom: 0;
+    padding-top: 28px;
+	line-height: 1.4;
+	font-weight: 400;
+    font-style: normal;
+	color: #2d2d2d 
+}
+.icerik_bilgi{
+/*	border: 1px solid #000;*/
+	font-size: 0.8rem;
+    color: #9a9a9a;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    padding: 10px 0 10px;
+    position: relative;
+    -webkit-transition: opacity 150ms ease-in;
+    transition: opacity 150ms ease-in;
+}
+.tarih{
+	float: left;
+}
+.span{text-decoration: underline; 
+	color: black; 
+	cursor: pointer;
+}
+.span:hover{
+	color:red;
+}
+.icerik_buyuk_resim{
+/*	border: 1px solid #000;*/
+	width: 880px;
+	height: 390px;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 3px hsl(0deg 0% 100% / 15%);
+    transition: box-shadow .2s ease-out,background-color .2s ease-out;
+	margin-bottom: 20px;
+}
+
+.icerik_metin{
+/*	border: 1px solid #000;*/
+	width: 880px;
+	height: auto;
+	text-align: justify;
+	line-height: 1.8;
+	font-size: 1rem;
+    line-height: 1.7;
+    color: #535353;
+	font-weight: 400;
+	margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sağ icerik bitiş*/
+
+
+
+
+
+
+

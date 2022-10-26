@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #535353;
+    background-color: #fbfbfb;
+	margin:0px;
+	width: 100%px;
+}
+.hizalama_bitir{clear:both;}
+
+a{text-decoration:none;
+	color: #535353;
+}
+.govde{
+	border:1px solid #000;
+	width: 1200px;
+	height: 350px;
+	margin: auto;
+}
+.sayfa_baslik{
+	border:1px solid #000;
+	margin: 0 0 10px;
+    padding: 7px 15px 6px;
+    list-style: none;
+    float: left;
+	font-weight: 400;
+	font-size: 1rem;
+    line-height: 1.7;
+    color: #212529;
+    text-align: left;
+	cursor: pointer;
+}
+.bakanlik_adresi{
+/*	border: 1px solid #000;*/
+	width: 1200px;
+	height: 193px;
+	float: left;
+	margin-top: 35px;
+	padding-right: 15px; 
+}
+.adres_baslik{
+/*	border: 1px solid #000;*/
+	width: 1200px;
+	height: 24px;
+	margin-bottom: 8px;
+	color:  inherit;
+	font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+}
+.adres_metin{
+/*	border: 1px solid #000;*/
+	font-family: 'Roboto Condensed', sans-serif!important;
+	width: 1200px;
+	height: auto;
+	margin-bottom: 16px;
+    color: #535353;
+	font-weight: 400;
+	text-align: left;
+	font-size: 15px;
+    line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+
+
+

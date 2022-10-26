@@ -1,0 +1,8 @@
+Web Sitesi Veritabanı Adı: tc_bakanlik_site
+Şifre: Ergin473706
+
+
+
+Telefon Otomasyon Veritabanı Adı: otomasyon_proje
+Şifre: Ergin473706
+

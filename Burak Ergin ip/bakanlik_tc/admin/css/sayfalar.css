@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.hizalama_bitir{clear:both;}
+
+a{text-decoration:none;
+	color: #000;
+}
+
+.sayfa_ekle{
+/*	border: 1px solid #000;*/
+	width: auto;
+	height: auto;
+	float: left;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 14px;
+	color:#656565;
+	padding: 6px 6px;
+	cursor: pointer;
+}
+.sayfa_ekle:hover{
+	color:#FFFFFF;
+	background-color:#CD2122;
+}
+.menu_div{
+/*	border: 1px solid #000;*/
+	width: 1200px;
+	height: 30px;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.sayfa_no{
+/*	border: 1px solid #000;*/
+	width: auto;
+	height: 16px;
+	margin: auto;
+	float: left;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 14px;
+	color:#9999FF;
+	padding: 6px 6px;
+	cursor: pointer;
+}
+
+.baslik{
+/*	border: 1px solid #000;*/
+	width: auto;
+	height: 16px;
+	margin: auto;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 14px;
+	color:#9999FF;
+	padding: 6px 6px;
+	
+}
+
+.islemler{
+/*	border: 1px solid #000;*/
+	width: auto;
+	height: 16px;
+	padding: 5px;
+	float: right;
+	margin-right: 390px;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 14px;
+	color:#9999FF;
+	padding: 6px 6px;
+}
+
+
+
