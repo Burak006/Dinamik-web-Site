@@ -1,6 +1,6 @@
 
 <h1> Dinamik Web Sitesi <h1>
-<h4>Senaryo: Bu Projem'de Dinamik Bir Web sitesi geliştirdim sayfalar arası geçişlerdeki verilerin veri tabanından çekildiği sitedeki Duyurular ve Hberler kısmının dinamik olarak güncellenebildiği ve Admin sayfasından yetkili kullanıcın bu işlemleri gerçekleştirebildiği bir Dinamik Web site projesidir.<h4>
+<h4>Senaryo: Bu Projem'de Dinamik Bir Web sitesi geliştirdim sayfalar arası geçişlerdeki verilerin veri tabanından çekildiği sitedeki Duyurular ve Haberler kısmının dinamik olarak güncellenebildiği ve Admin sayfasından yetkili kullanıcın bu işlemleri anlık olarak gerçekleştirebildiği bir Dinamik Web site projesidir.<h4>
 <h1>  Kullanılan Teknolojiler<h1>
 <h4> HTML - CSS - PHP - MYSQL - Bootstrap 5 <h4>
 <h1>Sayfalar<h1>
